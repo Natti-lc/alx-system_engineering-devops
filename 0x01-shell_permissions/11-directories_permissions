@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R =755 ./
+sudo find . -type d -print0 | xargs -0 sudo chmod 755
